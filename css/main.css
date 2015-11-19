@@ -31,7 +31,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
 }
 
 html {
-    background: url("../img/wallpaper.jpg") fixed;
+    background: #7C8896 url("../img/wallpaper.jpg") fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
