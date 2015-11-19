@@ -1,0 +1,102 @@
+@import url("../fonts/garton/stylesheet.css");
+@import url("../fonts/fontin/stylesheet.css");
+@import url("../fonts/fontin-sc/stylesheet.css");
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    color: #6689c7;
+    text-decoration: none;
+}
+a:hover {
+    text-shadow: 0 0 20px #6689c7;
+}
+
+h1, h2, h3, h4, .title {
+    font-family:  fontin_smallcaps, sans-serif;
+    text-shadow: 0 0 5px #000;
+    text-align: center;
+}
+
+h1 a, h2 a, h3 a, h4 a {
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
+    text-shadow: 0 0 20px #f4f4f4;
+}
+
+html {
+    background: url("../img/wallpaper.jpg") fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #f4f4f4;
+    font-family: fontin, sans-serif;
+    font-size: 120%;
+}
+p {
+    text-align: justify;
+    font-size: 105%;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 85%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    background: #222222;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+#header {
+    padding: 25px;
+}
+#header h1 {
+    text-align: right;
+}
+#header p {
+    text-align: center;
+}
+#header img {
+    float: left;
+    padding-right: 25px;
+}
+
+#projects {
+    margin-bottom: 20px;
+}
+
+#projects .project {
+    margin-bottom: 20px;
+}
+#projects .project div {
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+#projects .project div h2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer {
+    text-align: center;
+    font-size: 75%;
+    color: #888888;
+}
+
